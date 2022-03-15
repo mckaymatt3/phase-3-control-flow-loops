@@ -1,5 +1,9 @@
-def happy_new_year
-  # your code here
+def happy_new_year (number)
+  until number == 0 
+    puts "#{number}!"
+    number -=1
+  end
+  return "Happy New Year!"
 end
 
 # No need to modify this code! Use this to implement the fizzbuzz_printer method.
